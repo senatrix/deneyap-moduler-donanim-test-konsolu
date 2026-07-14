@@ -1974,7 +1974,7 @@ void drawInterruptTestScreen() {
   }
 
   display.setCursor(0, 45);
-  display.print("Sahte tetikleme: ");
+  display.print("Reddedilen kesme: ");
   display.print(bounceCount);
 
   display.drawFastHLine(
